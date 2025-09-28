@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "vite:dev": "vite ./src",
-    "vite:build": "vite build ./src",
+    "vite:build": "vite build ./src --emptyOutDir",
     "app": "npm run vite:build && electron .",
     "app:build": "npm run vite:build && electron-builder"
   },
